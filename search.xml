@@ -20,8 +20,7 @@
 <hr>
 <p> <em>斜线字体</em><br> <strong>加粗字体</strong></p>
 <p> <a href="https://baidu.com/">链接这样写</a></p>
-<p> <img src="/../image/lifafa.jpg" alt="插入图片"></p>
-<p> <code>&lt;html&gt;插入一行代码块&lt;/html&gt;</code></p>
+<p> <img src="/../image/lifafa.jpg" alt="插入图片"><br> <div align="center"><br><img src="/../image/lifafa.jpg" height="300px" width="300px" ><br> </div><br> <code>&lt;html&gt;插入一行代码块&lt;/html&gt;</code></p>
  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;head&gt;</span><br><span class="line">        &lt;title&gt;插入多行代码块&lt;/title&gt;</span><br><span class="line">    &lt;/head&gt;</span><br><span class="line">    &lt;body&gt;&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
 
 <blockquote>
