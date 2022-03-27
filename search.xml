@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>文章书写说明</title>
-      <link href="/2022/03/26/%E6%96%87%E7%AB%A0%E8%AF%B4%E6%98%8E/"/>
-      <url>/2022/03/26/%E6%96%87%E7%AB%A0%E8%AF%B4%E6%98%8E/</url>
-      
-        <content type="html"><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h3 id="如何设置阅读全文"><a href="#如何设置阅读全文" class="headerlink" title="如何设置阅读全文"></a>如何设置阅读全文</h3><p>·如这篇文章所用的一样，在顶部写上description<br>·在文中随意的位置，可以用<code>&lt;!--more--&gt;</code>进行截断<br>·在主题配置文件中，加上：<br>    <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">auto_excerpt:</span><br><span class="line"> enable: true</span><br><span class="line"> length: 150</span><br></pre></td></tr></table></figure><br>    但这种方法没什么用</p><h3 id="格式说明"><a href="#格式说明" class="headerlink" title="格式说明"></a>格式说明</h3><ul><li>列表1</li><li>列表2<ul><li>子列表a<ul><li>a的子列表</li></ul></li><li>子列表b</li></ul></li><li>列表3</li></ul><hr><hr><p> <em>斜线字体</em><br> <strong>加粗字体</strong></p><p> <a href="https://baidu.com/">链接这样写</a></p><p> <img src="/../image/lifafa.jpg" alt="插入图片"></p><p> <code>&lt;html&gt;插入一行代码块&lt;/html&gt;</code></p> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;head&gt;</span><br><span class="line">        &lt;title&gt;插入多行代码块&lt;/title&gt;</span><br><span class="line">    &lt;/head&gt;</span><br><span class="line">    &lt;body&gt;&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure><blockquote><p>引用</p></blockquote>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>文章书写说明</title>
+    <url>/2022/03/26/%E6%96%87%E7%AB%A0%E8%AF%B4%E6%98%8E/</url>
+    <content><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h3 id="如何设置阅读全文"><a href="#如何设置阅读全文" class="headerlink" title="如何设置阅读全文"></a>如何设置阅读全文</h3><p>·如这篇文章所用的一样，在顶部写上description<br>·在文中随意的位置，可以用<code>&lt;!--more--&gt;</code>进行截断<br>·在主题配置文件中，加上：<br>    <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">auto_excerpt:</span><br><span class="line"> enable: true</span><br><span class="line"> length: 150</span><br></pre></td></tr></table></figure><br>    但这种方法没什么用</p>
+<h3 id="格式说明"><a href="#格式说明" class="headerlink" title="格式说明"></a>格式说明</h3><ul>
+<li>列表1</li>
+<li>列表2<ul>
+<li>子列表a<ul>
+<li>a的子列表</li>
+</ul>
+</li>
+<li>子列表b</li>
+</ul>
+</li>
+<li>列表3</li>
+</ul>
+<hr>
+<hr>
+<p> <em>斜线字体</em><br> <strong>加粗字体</strong></p>
+<p> <a href="https://baidu.com/">链接这样写</a></p>
+<p> <img src="/../image/lifafa.jpg" alt="插入图片"></p>
+<p> <code>&lt;html&gt;插入一行代码块&lt;/html&gt;</code></p>
+ <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;head&gt;</span><br><span class="line">        &lt;title&gt;插入多行代码块&lt;/title&gt;</span><br><span class="line">    &lt;/head&gt;</span><br><span class="line">    &lt;body&gt;&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>引用</p>
+</blockquote>
+]]></content>
       <categories>
-          
-          <category> 文章说明 </category>
-          
+        <category>文章说明</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 说明 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>说明</tag>
+      </tags>
+  </entry>
 </search>
