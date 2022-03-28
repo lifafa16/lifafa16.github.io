@@ -25,6 +25,17 @@
       </tags>
   </entry>
   <entry>
+    <title>部署测试</title>
+    <url>/2022/03/28/%E9%83%A8%E7%BD%B2%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<h1 id="测试1111"><a href="#测试1111" class="headerlink" title="测试1111"></a>测试1111</h1>]]></content>
+      <categories>
+        <category>报错解决</category>
+      </categories>
+      <tags>
+        <tag>报错</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>run报错及解决方法</title>
     <url>/2022/03/28/run%E6%8A%A5%E9%94%99%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
     <content><![CDATA[<h1 id="常见的普遍问题"><a href="#常见的普遍问题" class="headerlink" title="常见的普遍问题"></a>常见的普遍问题</h1><h2 id="端口占用-port"><a href="#端口占用-port" class="headerlink" title="端口占用(port)"></a>端口占用(port)</h2><h3 id="样例"><a href="#样例" class="headerlink" title="样例"></a>样例</h3><ul>
@@ -50,26 +61,15 @@
       </tags>
   </entry>
   <entry>
-    <title>部署测试</title>
-    <url>/2022/03/28/%E9%83%A8%E7%BD%B2%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<h1 id="测试1111"><a href="#测试1111" class="headerlink" title="测试1111"></a>测试1111</h1>]]></content>
-      <categories>
-        <category>报错解决</category>
-      </categories>
-      <tags>
-        <tag>报错</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>一些网址记录</title>
     <url>/2022/03/28/%E7%BD%91%E5%9D%80%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<h3 id="腾讯云"><a href="#腾讯云" class="headerlink" title="腾讯云"></a>腾讯云</h3><ul>
 <li><a href="https://console.cloud.tencent.com/">腾讯云</a></li>
-<li>腾讯云官网。使用的<strong>serverless</strong>在首页-&gt;控制台-&gt;搜索<strong>serverless应用中心</strong>进入，结合coding使用。</li>
+<li>腾讯云官网。已购买域名和服务器。</li>
 </ul>
 <h3 id="coding"><a href="#coding" class="headerlink" title="coding"></a>coding</h3><ul>
 <li><a href="https://serverless-100024629543.coding.net/">coding</a> </li>
-<li>coding官网，用腾讯云账号登录，用于托管代码。</li>
+<li>coding官网，用腾讯云账号登录，用于托管代码。腾讯云中使用的<strong>serverless</strong>在首页-&gt;控制台-&gt;搜索<strong>serverless应用中心</strong>进入，结合coding部署。</li>
 </ul>
 <h3 id="Font-Awesome"><a href="#Font-Awesome" class="headerlink" title="Font Awesome"></a>Font Awesome</h3><ul>
 <li><a href="https://fontawesome.com/">Font Awesome</a></li>
@@ -95,6 +95,23 @@
 <li><a href="https://butterfly.js.org/">butterfly</a></li>
 <li>butterfly主题官方文档。是hexo的一个主题，可以修改代码进行美化。</li>
 </ul>
+<h3 id="又拍云联盟"><a href="#又拍云联盟" class="headerlink" title="又拍云联盟"></a>又拍云联盟</h3><ul>
+<li><a href="https://www.upyun.com/league">又拍云联盟</a></li>
+<li>白嫖，CDN加速服务</li>
+</ul>
+<h3 id="又拍云CDN加速服务"><a href="#又拍云CDN加速服务" class="headerlink" title="又拍云CDN加速服务"></a>又拍云CDN加速服务</h3><ul>
+<li><a href="https://console.upyun.com/">又拍云</a></li>
+<li>b站有教程，怎么配置。</li>
+</ul>
+<h3 id="腾讯云DNS解析"><a href="#腾讯云DNS解析" class="headerlink" title="腾讯云DNS解析"></a>腾讯云DNS解析</h3><ul>
+<li><a href="https://www.dnspod.cn/">腾讯云DNS解析</a></li>
+<li>进入后往下划，找到免费的使用</li>
+</ul>
+<h3 id="阿里云DNS解析"><a href="#阿里云DNS解析" class="headerlink" title="阿里云DNS解析"></a>阿里云DNS解析</h3><ul>
+<li><a href="https://dns.console.aliyun.com/">阿里云DNS解析</a></li>
+<li>阿里云DNS解析，已经买了一年的服务</li>
+</ul>
+<hr>
 ]]></content>
       <categories>
         <category>备份</category>
