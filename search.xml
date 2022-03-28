@@ -25,17 +25,6 @@
       </tags>
   </entry>
   <entry>
-    <title>部署测试</title>
-    <url>/2022/03/28/%E9%83%A8%E7%BD%B2%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<h1 id="测试1111"><a href="#测试1111" class="headerlink" title="测试1111"></a>测试1111</h1>]]></content>
-      <categories>
-        <category>报错解决</category>
-      </categories>
-      <tags>
-        <tag>报错</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>run报错及解决方法</title>
     <url>/2022/03/28/run%E6%8A%A5%E9%94%99%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
     <content><![CDATA[<h1 id="常见的普遍问题"><a href="#常见的普遍问题" class="headerlink" title="常见的普遍问题"></a>常见的普遍问题</h1><h2 id="端口占用-port"><a href="#端口占用-port" class="headerlink" title="端口占用(port)"></a>端口占用(port)</h2><h3 id="样例"><a href="#样例" class="headerlink" title="样例"></a>样例</h3><ul>
@@ -53,6 +42,17 @@
 </ul>
 <hr>
 ]]></content>
+      <categories>
+        <category>报错解决</category>
+      </categories>
+      <tags>
+        <tag>报错</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>部署测试</title>
+    <url>/2022/03/28/%E9%83%A8%E7%BD%B2%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<h1 id="测试1111"><a href="#测试1111" class="headerlink" title="测试1111"></a>测试1111</h1>]]></content>
       <categories>
         <category>报错解决</category>
       </categories>
