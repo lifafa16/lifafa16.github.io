@@ -25,42 +25,6 @@
       </tags>
   </entry>
   <entry>
-    <title>run报错及解决方法</title>
-    <url>/2022/03/28/run%E6%8A%A5%E9%94%99%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<h1 id="常见的普遍问题"><a href="#常见的普遍问题" class="headerlink" title="常见的普遍问题"></a>常见的普遍问题</h1><h2 id="端口占用-port"><a href="#端口占用-port" class="headerlink" title="端口占用(port)"></a>端口占用(port)</h2><h3 id="样例"><a href="#样例" class="headerlink" title="样例"></a>样例</h3><ul>
-<li>port:80 not available!</li>
-</ul>
-<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><ul>
-<li>以port80为例</li>
-<li>1.打开cmd,输入<code>netstat -ano | findstr 80</code>，查看是什么进程占用80端口<img src="/../image/runproblem/1.1.2.1.png" width="500px" ></li>
-<li>2.下图圈出的，就是进程占用的端口号，以及这个进程的进程号<img src="/../image/runproblem/1.1.2.2.png" width="500px" ></li>
-<li>3.找到占用80端口的进程号，输入<code>tasklist | findstr 6456</code> 查看占用80端口的6456进程是谁<img src="/../image/runproblem/1.1.2.3.png" width="500px" ></li>
-<li>4.打开<strong>任务管理器</strong>，找到<strong>vmnat.exe</strong>相关的进程，全部都右键<strong>结束任务</strong><img src="/../image/runproblem/1.1.2.4.png" width="500px" ></li>
-<li>一般情况，第4步完成，端口被占用的问题就可以解决了。如果还没有解决，往下看。</li>
-<li>5.因为<strong>vmnat.exe</strong>是<strong>VMware NAT</strong>服务，所以我们把这个服务停止并改启动方式为手动即可。如果不知道是什么程序的服务，可以先进行百度。<br>右键我的电脑-&gt;管理-&gt;服务和应用程序-&gt;服务-&gt;找到<strong>VMware NAT Service</strong>左键双击后，把<strong>服务状态</strong>改为<strong>停止</strong>，把<strong>启动类型</strong>改为<strong>手动</strong><img src="/../image/runproblem/1.1.2.5.png" width="500px" ></li>
-<li>此时端口80被占用的问题就解决啦！</li>
-</ul>
-<hr>
-]]></content>
-      <categories>
-        <category>报错解决</category>
-      </categories>
-      <tags>
-        <tag>报错</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>部署测试</title>
-    <url>/2022/03/28/%E9%83%A8%E7%BD%B2%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<h1 id="测试1111"><a href="#测试1111" class="headerlink" title="测试1111"></a>测试1111</h1>]]></content>
-      <categories>
-        <category>报错解决</category>
-      </categories>
-      <tags>
-        <tag>报错</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>一些网址记录</title>
     <url>/2022/03/28/%E7%BD%91%E5%9D%80%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<h3 id="腾讯云"><a href="#腾讯云" class="headerlink" title="腾讯云"></a>腾讯云</h3><ul>
@@ -119,6 +83,42 @@
       <tags>
         <tag>网址</tag>
         <tag>备份</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>部署测试</title>
+    <url>/2022/03/28/%E9%83%A8%E7%BD%B2%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<h1 id="测试1111"><a href="#测试1111" class="headerlink" title="测试1111"></a>测试1111</h1>]]></content>
+      <categories>
+        <category>报错解决</category>
+      </categories>
+      <tags>
+        <tag>报错</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>run报错及解决方法</title>
+    <url>/2022/03/28/run%E6%8A%A5%E9%94%99%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<h1 id="常见的普遍问题"><a href="#常见的普遍问题" class="headerlink" title="常见的普遍问题"></a>常见的普遍问题</h1><h2 id="端口占用-port"><a href="#端口占用-port" class="headerlink" title="端口占用(port)"></a>端口占用(port)</h2><h3 id="样例"><a href="#样例" class="headerlink" title="样例"></a>样例</h3><ul>
+<li>port:80 not available!</li>
+</ul>
+<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><ul>
+<li>以port80为例</li>
+<li>1.打开cmd,输入<code>netstat -ano | findstr 80</code>，查看是什么进程占用80端口<img src="/../image/runproblem/1.1.2.1.png" width="500px" ></li>
+<li>2.下图圈出的，就是进程占用的端口号，以及这个进程的进程号<img src="/../image/runproblem/1.1.2.2.png" width="500px" ></li>
+<li>3.找到占用80端口的进程号，输入<code>tasklist | findstr 6456</code> 查看占用80端口的6456进程是谁<img src="/../image/runproblem/1.1.2.3.png" width="500px" ></li>
+<li>4.打开<strong>任务管理器</strong>，找到<strong>vmnat.exe</strong>相关的进程，全部都右键<strong>结束任务</strong><img src="/../image/runproblem/1.1.2.4.png" width="500px" ></li>
+<li>一般情况，第4步完成，端口被占用的问题就可以解决了。如果还没有解决，往下看。</li>
+<li>5.因为<strong>vmnat.exe</strong>是<strong>VMware NAT</strong>服务，所以我们把这个服务停止并改启动方式为手动即可。如果不知道是什么程序的服务，可以先进行百度。<br>右键我的电脑-&gt;管理-&gt;服务和应用程序-&gt;服务-&gt;找到<strong>VMware NAT Service</strong>左键双击后，把<strong>服务状态</strong>改为<strong>停止</strong>，把<strong>启动类型</strong>改为<strong>手动</strong><img src="/../image/runproblem/1.1.2.5.png" width="500px" ></li>
+<li>此时端口80被占用的问题就解决啦！</li>
+</ul>
+<hr>
+]]></content>
+      <categories>
+        <category>报错解决</category>
+      </categories>
+      <tags>
+        <tag>报错</tag>
       </tags>
   </entry>
 </search>
